@@ -1,3 +1,9 @@
+---
+title: Ways to search on Google from any location
+date: "2022-11-05T22:12:03.284Z"
+description: "Hello World"
+---
+
 VPNs are the usual and well-known option for this. VPN providers have servers in different locations and let you use them as a proxy in exchange for money.
 
 In the case of Google Search, there are a couple of [ways it uses to determine location]([GS Location Changer for Chrome & Firefox (valentin.app)](https://valentin.app/gs-location-changer.html)) like IP address(provided by your ISP) and the Geolocation API(Browser).
@@ -18,16 +24,16 @@ If you perform searches from certain locations almost everyday, you can also cre
 ## Location Override in Dev tools
 Open Dev tools in your Browser. Click in this order -> three dots -> sensors. You'll see something like this screenshot from Chrome:
 
-![[image.png]]
+![[image.png]](./image.png)
 
 Select any pre-set location or enter the coordinates of any corner in the world. To find the coordinates of any corner in the world, head to Google Maps. Copy the latitude and longitude from the URL(selected in screenshot below for reference)
 
-![[Screenshot from 2021-03-21 18-11-25 (1).png]]
+![[screenshot1.png]](./screenshot1.png)
 Paste these two in the dev tools. It works. You might need to click on "use precise location" or "update location" and reload your results. You might want to perform the search in Incognito too.
 
 I performed a search in Boring, Oregon, USA. I'm getting the results for Damascus, Oregon, USA, while I sit here here in India.
 
-![[Screenshot from 2021-03-21 18-11-25 (1) 1.png]]
+![[screenshot2.png]](./screenshot2.png)
 **Advantage of this over the UULE:** You can use this to make any website feel you are where you specify you are. UULE is only for Google search.
 
 So you can prevent a website from redirecting you to a page meant for your location.
