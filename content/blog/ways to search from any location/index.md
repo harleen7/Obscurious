@@ -34,6 +34,7 @@ Paste these two in the dev tools. It works. You might need to click on "use prec
 I performed a search in Boring, Oregon, USA. I'm getting the results for Damascus, Oregon, USA, while I sit here here in India.
 
 ![[screenshot2.png]](./screenshot2.png)
+
 **Advantage of this over the UULE:** You can use this to make any website feel you are where you specify you are. UULE is only for Google search.
 
 So you can prevent a website from redirecting you to a page meant for your location.
