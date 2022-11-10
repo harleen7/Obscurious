@@ -1,7 +1,7 @@
 ---
 title: Ways to search on Google from any location
 date: "2022-11-05T22:12:03.284Z"
-description: "Hello World"
+description: "VPNs are the usual and well-known option for this. VPN providers have servers in different locations and let you use them as a proxy in exchange for money."
 ---
 
 VPNs are the usual and well-known option for this. VPN providers have servers in different locations and let you use them as a proxy in exchange for money.
