@@ -1,6 +1,2 @@
 [[redirects]]
-  from = "/search"
-  to = "https://api.mysearch.com"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+  from "/geolocation-serp*" https://obscurious.xyz/geolocation-serp/:splat 200!
