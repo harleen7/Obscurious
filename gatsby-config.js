@@ -6,7 +6,7 @@ module.exports = {
       summary: ``,
     },
     description: `A blog for tinkering and research`,
-    siteUrl: `https://obscurious.gatsbyjs.io/`,
+    siteUrl: `https://obscurious.xyz/`,
   },
   plugins: [
     `gatsby-plugin-image`,
