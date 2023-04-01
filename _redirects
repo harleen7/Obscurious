@@ -1,4 +1,2 @@
 [[redirects]]
-  from = "/geolocation-serp/*"
-  to = "https://obscurious.xyz/geolocation-serp/ :splat"
-  status = 200
+  /geolocation-serp https://geolocation-serp.netlify.app/geolocation-serp/ 200!
