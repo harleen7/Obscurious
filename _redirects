@@ -1,2 +1,2 @@
 [[redirects]]
-  /geolocation-serp/ https://geolocation-serp.netlify.app/geolocation-serp/:splat 200!
+  /geolocation-serp/*  https://geolocation-serp.netlify.app/:splat  200
