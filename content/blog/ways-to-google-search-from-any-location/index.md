@@ -6,7 +6,7 @@ description: "VPNs are the usual and well-known option for this. VPN providers h
 
 VPNs are the usual and well-known option for this. VPN providers have servers in different locations and let you use them as a proxy in exchange for money.
 
-In the case of Google Search, there are a couple of [ways it uses to determine location]([GS Location Changer for Chrome & Firefox (valentin.app)](https://valentin.app/gs-location-changer.html)) like IP address(provided by your ISP) and the Geolocation API(Browser).
+In the case of Google Search, there are a couple of [ways it uses to determine location](https://valentin.app/gs-location-changer.html)) like IP address(provided by your ISP) and the Geolocation API(Browser).
 
 Below are some ways to bypass these logics and visit Google Search Results for your desired location:
 
@@ -19,7 +19,8 @@ Try this: https://www.google.com/search?q=kittens&oq=kittens&uule=w+CAIQICIdTG9u
 
 The UULE parameter consists of w+CAIQICI + [string length] + [base-64 encoded location]
 
-If you perform searches from certain locations almost everyday, you can also create bookmarklets that perform the search at the click of a button. I've made bookmarklets for common search locations that you can also modify to your desired locations.
+### Tool for checking SERP by location
+Here's a [tool to check unlimited number of search results by location](https://obscurious.xyz/geolocation-serp/)
 
 ## Location Override in Dev tools
 Open Dev tools in your Browser. Click in this order -> three dots -> sensors. You'll see something like this screenshot from Chrome:
