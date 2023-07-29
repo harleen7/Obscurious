@@ -21,18 +21,19 @@ The format of the "uule" parameter is a Base64-encoded string, and it typically 
 
 Here's a simplified example of how the "uule" parameter works:
 
-```markdown
 Suppose you want to search for "restaurants" in the city of "New York" and prefer to see the results as if you were conducting the search from "New York, USA." You can construct the Google search URL with the "uule" parameter as follows:
 
-[https://www.google.com/search?q=restaurants&uule=w+CAIQICINVW5pdGVkIFlvcms](https://www.google.com/search?q=restaurants&uule=w+CAIQICINVW5pdGVkIFlvcms)
+```markdown
 
+[https://www.google.com/search?q=restaurants&uule=w+CAIQICIITmV3IFlvcms](https://www.google.com/search?q=restaurants&uule=w+CAIQICIITmV3IFlvcms)
+
+```
 In this example, "w+CAIQICINVW5pdGVkIFlvcms" is the uule representation of the location "New York, USA." It consists of 3 things:
 1. A fixed paramter which is w+CAIQI
 2. The length of the string called New York
 3. The base-64 encoded city name. 
 
 When Google receives this request, it uses the "uule" parameter to understand that the search should be location-specific to "New York," and it will return results accordingly.
-```
 
 But, keep in mind, Google doesn't officially document this stuff, so it might change one day. So, be careful if you're building something serious with it.
 
